@@ -20,7 +20,7 @@
             var button = document.querySelector('#screenshot-button');
             var canvas = document.querySelector('#screenshot-canvas');
             var ctx = canvas.getContext('2d');
- 			if(!isImage){
+ 		if(!isImage){
 	            navigator.getUserMedia = (navigator.getUserMedia ||
 	                            navigator.webkitGetUserMedia ||
 	                            navigator.mozGetUserMedia ||
